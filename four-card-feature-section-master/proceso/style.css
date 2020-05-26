@@ -105,3 +105,94 @@ body {
     border-top: 3px solid hsl(212, 86%, 64%);
 }
 
+
+
+/* RESPONSIVE DESIGN iPad 768*1024 */
+
+@media (max-width: 768px) {
+    /* CAJA TITULO RESPOSIVE */
+    .caja-titulo {
+        max-width: 768px;
+        width: 700px;
+        margin: 0;
+        padding: 60px 34px 60px 34px;
+    }
+    #titulo-3 {
+        width: 70%;
+    }
+    /* CAJA TARJETAS RESPOSIVE IPAD*/
+    .principal {
+        margin: 70px;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .caja {
+        width: 45%;
+        flex-shrink: 1;
+        margin: 10px;
+    }
+    #caja-1 {
+        align-items: center;
+        justify-content: center;
+    }
+    #caja-2 {
+        flex-direction: row;
+        flex-shrink: 2;
+        width: 93%;
+        align-items: center;
+        justify-content: space-around;
+    }
+        #team-builder {
+            margin-right: 13px;
+        }
+        #karma {
+            margin-left: 13px;
+        }
+    #caja-3 {
+        order: -1;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* RESPOSIVE DESIGN 375px*/
+
+@media (max-width: 375px) {
+
+    /* CAJA TITULO RESPONSIVE */
+     .caja-titulo {
+         max-width: 375px;
+         width: 325px;
+         margin: 0;
+         padding: 60px 25px 5px 25px;
+         flex-direction: column;
+     }
+     #titulo-3 {
+         width: 100%;
+     }
+ 
+     /* CAJA TARJETAS RESPONSIVE */
+     .principal {
+         max-width: 375px;
+         width: 325px;
+         margin: 0;
+         padding: 50px 25px 50px 25px;
+         flex-direction: column;
+     }
+     .caja {
+         width: 100%;
+         margin: 0;
+     }
+     #caja-1 {
+         align-items: center;
+         justify-content: center;
+     }
+     #caja-2 {
+         width: 100%;
+         align-items: center;
+         flex-direction: column;
+     }
+     #caja-3 {
+         align-items: center;
+     }
+ }
